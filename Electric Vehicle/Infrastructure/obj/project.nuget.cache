@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2gDYq70wd0g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\plami\\source\\repos\\Electric Vehicle\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\plami\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

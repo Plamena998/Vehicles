@@ -1,0 +1,16 @@
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\bin\Debug\net8.0\Electric_Vehicle_Population_Data.csv
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\bin\Debug\net8.0\Vehicle.Models.dll
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\bin\Debug\net8.0\Vehicle.Models.pdb
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\plami\source\repos\Electric Vehicle\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
