@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y8pjQIx6R3Q=",
+  "dgSpecHash": "F99150Ry4iQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\plami\\source\\repos\\Electric Vehicle\\DataContext\\DataContext.csproj",
+  "projectFilePath": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\DataContext.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\plami\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\plami\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

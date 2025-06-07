@@ -4086,11 +4086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\plami\\source\\repos\\Electric Vehicle\\DataContext\\DataContext.csproj",
+      "projectUniqueName": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\DataContext.csproj",
       "projectName": "DataContext",
-      "projectPath": "C:\\Users\\plami\\source\\repos\\Electric Vehicle\\DataContext\\DataContext.csproj",
+      "projectPath": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\DataContext.csproj",
       "packagesPath": "C:\\Users\\plami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\plami\\source\\repos\\Electric Vehicle\\DataContext\\obj\\",
+      "outputPath": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\plami\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4108,11 +4108,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\plami\\source\\repos\\Electric Vehicle\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\plami\\source\\repos\\Electric Vehicle\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\plami\\source\\repos\\Electric Vehicle\\Vehicle.Models\\Vehicle.Models.csproj": {
-              "projectPath": "C:\\Users\\plami\\source\\repos\\Electric Vehicle\\Vehicle.Models\\Vehicle.Models.csproj"
+            "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Vehicle.Models.csproj": {
+              "projectPath": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Vehicle.Models.csproj"
             }
           }
         }

@@ -4,6 +4,7 @@ using DataContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataContext.Migrations
 {
     [DbContext(typeof(VehicleDbContext))]
-    partial class VehicleDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250607171643_newDatabase")]
+    partial class newDatabase
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -129,7 +132,7 @@ namespace DataContext.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("ElectricRange")
+                    b.Property<int>("ElectricRange")
                         .HasColumnType("int");
 
                     b.Property<string>("ElectricUtility")
@@ -143,7 +146,7 @@ namespace DataContext.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("LegislativeDistrict")
+                    b.Property<int>("LegislativeDistrict")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("UpdatedAt")
@@ -188,7 +191,7 @@ namespace DataContext.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("BaseMSRP")
+                    b.Property<int>("BaseMSRP")
                         .HasColumnType("int");
 
                     b.Property<int>("CencusTractId")
@@ -224,7 +227,7 @@ namespace DataContext.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ModelYear")
+                    b.Property<int>("ModelYear")
                         .HasColumnType("int");
 
                     b.Property<int?>("PostalCode")

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ElectricVehicle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+522263ee3e4ff1c44cfea5442ea9e81722e3e394")]
 [assembly: System.Reflection.AssemblyProductAttribute("ElectricVehicle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ElectricVehicle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

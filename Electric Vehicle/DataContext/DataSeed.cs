@@ -1,4 +1,5 @@
 ﻿using Infrastructure.CsvReader;
+using Infrastructure.CsvReading.CsvReading;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -12,19 +13,19 @@ using Vehicle.Models.Models;
 
 namespace DataContext
 {
-    public class DataSeed //: IDataSeed
+    public class DataSeed : IDataSeed
     {
         private readonly VehicleDbContext _vehicleDbContext;
-        private readonly Infrastructure.CsvReading.CsvReading.CsvFileReader _csvFileReader;
-        public DataSeed(VehicleDbContext context, Infrastructure.CsvReading.CsvReading.CsvFileReader csvFile)
+        private readonly CsvFileReader _csvFileReader;
+
+        public DataSeed(CsvFileReader csvFile, VehicleDbContext context)
         {
             this._csvFileReader = csvFile;
             this._vehicleDbContext = context;
-
         }
+
         public void SeedData()
         {
-
             if (_vehicleDbContext.Vehicles.Any())
             {
                 Console.WriteLine("Има вече данни в таблицата Vehicles.");
@@ -32,79 +33,92 @@ namespace DataContext
             }
 
             var vehiclesFromCsv = _csvFileReader.GetData();
-            Console.WriteLine($"CSV rows loaded: {vehiclesFromCsv.Count}");
+            Console.WriteLine($"{vehiclesFromCsv.Count}");
 
-            foreach (var vehicle in vehiclesFromCsv)
+            Dictionary<string, State> states = new Dictionary<string, State>();
+            Dictionary<string, County> counties = new Dictionary<string, County>();
+            Dictionary<string, City> cities = new Dictionary<string, City>();
+            Dictionary<string, Electricity> electricities = new Dictionary<string, Electricity>();
+            Dictionary<string, Vehicle.Models.Models.Vehicle> vehicles = new Dictionary<string, Vehicle.Models.Models.Vehicle>();
+            for (int i = 0; vehiclesFromCsv.Count > i; i++)
             {
-                var state = _vehicleDbContext.States.FirstOrDefault(s => s.StateName == vehicle.State)
-                    ?? new State { StateName = vehicle.State };
-
-                var county = _vehicleDbContext.Counties.FirstOrDefault(c => c.CountyName == vehicle.County)
-                    ?? new County { CountyName = vehicle.County, State = state };
-
-                var city = _vehicleDbContext.Cities.FirstOrDefault(c => c.CityName == vehicle.City)
-                    ?? new City { CityName = vehicle.City, County = county };
-
-                var cencusTract = _vehicleDbContext.CencusTracts
-                    .FirstOrDefault(c => c.CencusTract2020 == vehicle.num2020CensusTract)
-                    ?? new CencusTract { CencusTract2020 = vehicle.num2020CensusTract, City = city };
-
-                var electricity = _vehicleDbContext.Electricities.FirstOrDefault(e =>
-                    e.ElectricVehicleType == vehicle.ElectricVehicleType &&
-                    e.ElectricUtility == vehicle.ElectricUtility &&
-                    e.ElectricRange == vehicle.ElectricRange &&
-                    e.CAFV == vehicle.CleanAlternativeFuelVehicleCAFVEligibility)
-                    ?? new Electricity
-                    {
-                        ElectricVehicleType = vehicle.ElectricVehicleType,
-                        ElectricUtility = vehicle.ElectricUtility,
-                        ElectricRange = vehicle.ElectricRange,
-                        CAFV = vehicle.CleanAlternativeFuelVehicleCAFVEligibility
-                    };
-
-                // Добавяне към контекста, ако не съществуват
-                if (state.Id == 0) _vehicleDbContext.States.Add(state);
-                if (county.Id == 0) _vehicleDbContext.Counties.Add(county);
-                if (city.Id == 0) _vehicleDbContext.Cities.Add(city);
-                if (cencusTract.Id == 0) _vehicleDbContext.CencusTracts.Add(cencusTract);
-                if (electricity.Id == 0) _vehicleDbContext.Electricities.Add(electricity);
-
-                // И SaveChanges() преди Vehicle
-                _vehicleDbContext.SaveChanges();
-
-
-                var vehcl = new Vehicle.Models.Models.Vehicle
+                if (!states.ContainsKey(vehiclesFromCsv[i].State))
                 {
-                    VIN = vehicle.VIN1_10,
-                    Make = vehicle.Make,
-                    Model = vehicle.VModel,
-                    ModelYear = vehicle.ModelYear,
-                    BaseMSRP = vehicle.BaseMSRP,
-                    DOLVehicleID = vehicle.DOLVehicleID,
-                    Location = vehicle.VehicleLocation,
-                    PostalCode = vehicle.PostalCode,
-                    State = state,
-                    Electricity = electricity,
-                    City = city,
-                    County = county,
-                    CencusTract = cencusTract,
-                    CityId = city.Id,
-                    CountyId = county.Id,
-                    CencusTractId = cencusTract.Id
+                    State state = new State()
+                    {
+                        StateName = vehiclesFromCsv[i].State
+                    };
+                    states.Add(vehiclesFromCsv[i].State, state);
+                    _vehicleDbContext.Add(state);
+                }
+                if (!counties.ContainsKey(vehiclesFromCsv[i].County))
+                {
+                    County county = new County()
+                    {
+                        CountyName = vehiclesFromCsv[i].County,
+                        State = states[vehiclesFromCsv[i].State]
+                    };
+                    counties.Add(vehiclesFromCsv[i].County, county);
+                    _vehicleDbContext.Add(county);
+                }
+                if (!cities.ContainsKey(vehiclesFromCsv[i].City))
+                {
+                    City city = new City()
+                    {
+                        CityName = vehiclesFromCsv[i].City,
+                        County = counties[vehiclesFromCsv[i].County]
+                    };
+                    cities.Add(vehiclesFromCsv[i].City, city);
+                    _vehicleDbContext.Add(city);
+                }
+
+                CencusTract census = new CencusTract()
+                {
+                    CencusTract2020 = vehiclesFromCsv[i].num2020CensusTract,
+                    City = cities[vehiclesFromCsv[i].City]
                 };
 
-                _vehicleDbContext.Vehicles.Add(vehcl);
-            }
+                _vehicleDbContext.Add(census);
 
-            try
-            {
-                _vehicleDbContext.SaveChanges();
-                Console.WriteLine("Данните са успешно наляти.");
+
+                if (!electricities.ContainsKey(vehiclesFromCsv[i].ElectricVehicleType))
+                {
+                    Electricity electricity = new Electricity()
+                    {
+                        ElectricVehicleType = vehiclesFromCsv[i].ElectricVehicleType,
+                        ElectricUtility = vehiclesFromCsv[i].ElectricUtility,
+                        ElectricRange = vehiclesFromCsv[i].ElectricRange,
+                        CAFV = vehiclesFromCsv[i].CleanAlternativeFuelVehicleCAFVEligibility,
+                        LegislativeDistrict = vehiclesFromCsv[i].LegislativeDistrict,
+                    };
+                    electricities.Add(vehiclesFromCsv[i].ElectricVehicleType, electricity);
+                    _vehicleDbContext.Add(electricity);
+                }
+                if (!vehicles.ContainsKey(vehiclesFromCsv[i].VIN1_10))
+                {
+                    Vehicle.Models.Models.Vehicle vehicle = new Vehicle.Models.Models.Vehicle()
+                    {
+                        VIN = vehiclesFromCsv[i].VIN1_10,
+                        Make = vehiclesFromCsv[i].Make,
+                        Model = vehiclesFromCsv[i].VModel,
+                        ModelYear = vehiclesFromCsv[i].ModelYear,
+                        BaseMSRP = vehiclesFromCsv[i].BaseMSRP,
+                        DOLVehicleID = vehiclesFromCsv[i].DOLVehicleID,
+                        Location = vehiclesFromCsv[i].VehicleLocation,
+                        PostalCode = vehiclesFromCsv[i].PostalCode,
+                        Electricity = electricities[vehiclesFromCsv[i].ElectricVehicleType],
+                        State = states[vehiclesFromCsv[i].State],
+                        City = cities[vehiclesFromCsv[i].City],
+                        County = counties[vehiclesFromCsv[i].County],
+                        CencusTract = census,
+
+                    };
+                    vehicles.Add(vehiclesFromCsv[i].VIN1_10, vehicle);
+                    _vehicleDbContext.Add(vehicle);
+                }
+
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine("ГРЕШКА при SaveChanges: " + ex.InnerException?.Message ?? ex.Message);
-            }
+            _vehicleDbContext.SaveChanges();
         }
     }
 }

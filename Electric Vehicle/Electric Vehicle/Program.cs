@@ -1,4 +1,5 @@
-﻿using Infrastructure.CsvReader;
+﻿using DataContext;
+using Infrastructure.CsvReader;
 using Infrastructure.CsvReading.CsvReading;
 using Infrastructure.GlobalParams;
 using System.Data;
@@ -9,15 +10,15 @@ namespace ElectricVehicle
     {
         static void Main(string[] args)
         {
-            using (var context = new DataContext.VehicleDbContext())
+            using(var context = new VehicleDbContext())
             {
-                CsvFileReader csv = new CsvFileReader();
-                csv.GetData();                        
-                Console.WriteLine("DA");
-                var dataSeed = new DataContext.DataSeed(context, csv); 
+                CsvFileReader csvFileReader = new CsvFileReader();
+                csvFileReader.GetData();
+                var dataSeed = new DataSeed(csvFileReader, context);
                 dataSeed.SeedData();
-                Console.WriteLine("DA");
+                Console.WriteLine("gotovo");
             }
+            
 
         }
     }
