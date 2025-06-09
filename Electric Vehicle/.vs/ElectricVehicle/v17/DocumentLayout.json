@@ -7,80 +7,8 @@
       "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\vehicle.models\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|solutionrelative:vehicle.models\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\vehicle.models\\models\\electricity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|solutionrelative:vehicle.models\\models\\electricity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\vehicle.models\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|solutionrelative:vehicle.models\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\vehicle.models\\models\\cencustract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|solutionrelative:vehicle.models\\models\\cencustract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1E3DCB-29E9-425D-AFA6-5664061E0B83}|Infrastructure\\Infrastructure.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\infrastructure\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B1E3DCB-29E9-425D-AFA6-5664061E0B83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1E3DCB-29E9-425D-AFA6-5664061E0B83}|Infrastructure\\Infrastructure.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\infrastructure\\csvreading\\csvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B1E3DCB-29E9-425D-AFA6-5664061E0B83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\csvreading\\csvfilereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00D46D84-6E33-4007-9622-6ADBFA4823CD}|Electric Vehicle\\ElectricVehicle.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\electric vehicle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00D46D84-6E33-4007-9622-6ADBFA4823CD}|Electric Vehicle\\ElectricVehicle.csproj|solutionrelative:electric vehicle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\datacontext\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\vehicle.models\\basemodels\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|solutionrelative:vehicle.models\\basemodels\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\vehicle.models\\models\\county.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62EE441F-8274-4BE6-866F-681A7C6E73EA}|Vehicle.Models\\Vehicle.Models.csproj|solutionrelative:vehicle.models\\models\\county.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B1E3DCB-29E9-425D-AFA6-5664061E0B83}|Infrastructure\\Infrastructure.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3B1E3DCB-29E9-425D-AFA6-5664061E0B83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\datacontext\\migrations\\20250607010532_initialnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607010532_initialnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\datacontext\\migrations\\20250607132934_initialcommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607132934_initialcommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\datacontext\\migrations\\20250607141715_newdataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607141715_newdataset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\datacontext\\migrations\\20250607141552_newbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607141552_newbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\datacontext\\migrations\\20250607135634_initialdatacommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607135634_initialdatacommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\datacontext\\migrations\\20250607225559_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607225559_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\datacontext\\migrations\\20250607171846_newdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607171846_newdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\datacontext\\migrations\\20250607171643_newdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\migrations\\20250607171643_newdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250609081135_initialDataSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20250609081135_initialDataSeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,67 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20250607225559_db.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607225559_db.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607225559_db.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607225559_db.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607225559_db.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20250609081135_initialDataSeed.cs",
+              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250609081135_initialDataSeed.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250609081135_initialDataSeed.cs",
+              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250609081135_initialDataSeed.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20250609081135_initialDataSeed.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:55:59.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Electricity.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Models\\Electricity.cs",
-              "RelativeDocumentMoniker": "Vehicle.Models\\Models\\Electricity.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Models\\Electricity.cs",
-              "RelativeToolTip": "Vehicle.Models\\Models\\Electricity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:54:01.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Model.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Infrastructure\\Model.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Model.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Infrastructure\\Model.cs",
-              "RelativeToolTip": "Infrastructure\\Model.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T22:46:43.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CsvFileReader.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Infrastructure\\CsvReading\\CsvFileReader.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\CsvReading\\CsvFileReader.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Infrastructure\\CsvReading\\CsvFileReader.cs",
-              "RelativeToolTip": "Infrastructure\\CsvReading\\CsvFileReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T01:11:33.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Queries.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Queries.cs",
-              "RelativeDocumentMoniker": "DataContext\\Queries.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Queries.cs",
-              "RelativeToolTip": "DataContext\\Queries.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:00:25.036Z"
+              "WhenOpened": "2025-06-09T08:11:35.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -160,178 +41,10 @@
               "RelativeDocumentMoniker": "DataContext\\DataSeed.cs",
               "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\DataSeed.cs",
               "RelativeToolTip": "DataContext\\DataSeed.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAGwAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAA5wHoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T00:37:33.299Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Electric Vehicle\\Program.cs",
-              "RelativeDocumentMoniker": "Electric Vehicle\\Program.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Electric Vehicle\\Program.cs",
-              "RelativeToolTip": "Electric Vehicle\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:49:44.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CencusTract.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Models\\CencusTract.cs",
-              "RelativeDocumentMoniker": "Vehicle.Models\\Models\\CencusTract.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Models\\CencusTract.cs",
-              "RelativeToolTip": "Vehicle.Models\\Models\\CencusTract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T14:08:46.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "City.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Models\\City.cs",
-              "RelativeDocumentMoniker": "Vehicle.Models\\Models\\City.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Models\\City.cs",
-              "RelativeToolTip": "Vehicle.Models\\Models\\City.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T14:08:10.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Models\\Vehicle.cs",
-              "RelativeDocumentMoniker": "Vehicle.Models\\Models\\Vehicle.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Models\\Vehicle.cs",
-              "RelativeToolTip": "Vehicle.Models\\Models\\Vehicle.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T14:00:57.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250607171846_newData.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607171846_newData.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607171846_newData.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607171846_newData.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607171846_newData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T17:18:46.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20250607171643_newDatabase.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607171643_newDatabase.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607171643_newDatabase.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607171643_newDatabase.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607171643_newDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T17:16:44.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "County.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Models\\County.cs",
-              "RelativeDocumentMoniker": "Vehicle.Models\\Models\\County.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\Models\\County.cs",
-              "RelativeToolTip": "Vehicle.Models\\Models\\County.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T14:08:36.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BaseModel.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\BaseModels\\BaseModel.cs",
-              "RelativeDocumentMoniker": "Vehicle.Models\\BaseModels\\BaseModel.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Vehicle.Models\\BaseModels\\BaseModel.cs",
-              "RelativeToolTip": "Vehicle.Models\\BaseModels\\BaseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T15:36:42.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Infrastructure\\Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\Infrastructure\\Infrastructure.csproj",
-              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-07T14:34:03.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20250607141715_newDataSet.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607141715_newDataSet.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607141715_newDataSet.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607141715_newDataSet.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607141715_newDataSet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T14:17:15.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250607141552_newbase.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607141552_newbase.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607141552_newbase.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607141552_newbase.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607141552_newbase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T14:15:52.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20250607135634_initialDataCommit.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607135634_initialDataCommit.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607135634_initialDataCommit.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607135634_initialDataCommit.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607135634_initialDataCommit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:56:34.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20250607132934_initialCommit.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607132934_initialCommit.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607132934_initialCommit.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607132934_initialCommit.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607132934_initialCommit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:29:34.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20250607010532_initialNew.cs",
-              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607010532_initialNew.cs",
-              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250607010532_initialNew.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250607010532_initialNew.cs",
-              "RelativeToolTip": "DataContext\\Migrations\\20250607010532_initialNew.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T01:05:32.573Z"
             }
           ]
         }

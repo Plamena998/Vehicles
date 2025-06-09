@@ -34,20 +34,24 @@ namespace DataContext
                 .HasForeignKey(s => s.StateId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<State>()
-               .HasMany(c => c.Counties)
-               .WithOne(s => s.State)
+            modelBuilder.Entity<Vehicle.Models.Models.Vehicle>()
+               .HasOne(s => s.City)
+               .WithMany(v => v.Vehicles)
+               .HasForeignKey(s => s.CityId)
                .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<County>()
-               .HasMany(c => c.Cities)
-               .WithOne(c => c.County)
+            modelBuilder.Entity<Vehicle.Models.Models.Vehicle>()
+               .HasOne(s => s.CencusTract)
+               .WithMany(v => v.Vehicles)
+               .HasForeignKey(s => s.CencusTractId)
                .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<City>()
-               .HasMany(c => c.CencusTracts)
-               .WithOne(c => c.City)
+            modelBuilder.Entity<Vehicle.Models.Models.Vehicle>()
+               .HasOne(s => s.County)
+               .WithMany(v => v.Vehicles)
+               .HasForeignKey(s => s.CountyId)
                .OnDelete(DeleteBehavior.Restrict);
+
 
             base.OnModelCreating(modelBuilder);
         }

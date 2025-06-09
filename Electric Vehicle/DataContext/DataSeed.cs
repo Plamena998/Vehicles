@@ -39,7 +39,9 @@ namespace DataContext
             Dictionary<string, County> counties = new Dictionary<string, County>();
             Dictionary<string, City> cities = new Dictionary<string, City>();
             Dictionary<string, Electricity> electricities = new Dictionary<string, Electricity>();
-            Dictionary<string, Vehicle.Models.Models.Vehicle> vehicles = new Dictionary<string, Vehicle.Models.Models.Vehicle>();
+            Dictionary<int, Vehicle.Models.Models.Vehicle> vehicles = new Dictionary<int, Vehicle.Models.Models.Vehicle>();
+            List<CencusTract> cencusList = new List<CencusTract>();
+            
             for (int i = 0; vehiclesFromCsv.Count > i; i++)
             {
                 if (!states.ContainsKey(vehiclesFromCsv[i].State))
@@ -49,7 +51,6 @@ namespace DataContext
                         StateName = vehiclesFromCsv[i].State
                     };
                     states.Add(vehiclesFromCsv[i].State, state);
-                    _vehicleDbContext.Add(state);
                 }
                 if (!counties.ContainsKey(vehiclesFromCsv[i].County))
                 {
@@ -59,7 +60,6 @@ namespace DataContext
                         State = states[vehiclesFromCsv[i].State]
                     };
                     counties.Add(vehiclesFromCsv[i].County, county);
-                    _vehicleDbContext.Add(county);
                 }
                 if (!cities.ContainsKey(vehiclesFromCsv[i].City))
                 {
@@ -69,17 +69,15 @@ namespace DataContext
                         County = counties[vehiclesFromCsv[i].County]
                     };
                     cities.Add(vehiclesFromCsv[i].City, city);
-                    _vehicleDbContext.Add(city);
                 }
 
                 CencusTract census = new CencusTract()
                 {
-                    CencusTract2020 = vehiclesFromCsv[i].num2020CensusTract,
+                    CensusTract2020 = vehiclesFromCsv[i].num2020CensusTract,
                     City = cities[vehiclesFromCsv[i].City]
                 };
-
-                _vehicleDbContext.Add(census);
-
+                cencusList.Add(census);
+               
 
                 if (!electricities.ContainsKey(vehiclesFromCsv[i].ElectricVehicleType))
                 {
@@ -92,9 +90,8 @@ namespace DataContext
                         LegislativeDistrict = vehiclesFromCsv[i].LegislativeDistrict,
                     };
                     electricities.Add(vehiclesFromCsv[i].ElectricVehicleType, electricity);
-                    _vehicleDbContext.Add(electricity);
                 }
-                if (!vehicles.ContainsKey(vehiclesFromCsv[i].VIN1_10))
+                if (!vehicles.ContainsKey(vehiclesFromCsv[i].DOLVehicleID))
                 {
                     Vehicle.Models.Models.Vehicle vehicle = new Vehicle.Models.Models.Vehicle()
                     {
@@ -113,11 +110,17 @@ namespace DataContext
                         CencusTract = census,
 
                     };
-                    vehicles.Add(vehiclesFromCsv[i].VIN1_10, vehicle);
-                    _vehicleDbContext.Add(vehicle);
+                    vehicles.Add(vehiclesFromCsv[i].DOLVehicleID, vehicle);
+                    
                 }
 
             }
+            _vehicleDbContext.AddRange(states.Values);
+            _vehicleDbContext.AddRange(counties.Values);
+            _vehicleDbContext.AddRange(cities.Values);
+            _vehicleDbContext.AddRange(cencusList);
+            _vehicleDbContext.AddRange(electricities.Values);
+            _vehicleDbContext.AddRange(vehicles.Values);
             _vehicleDbContext.SaveChanges();
         }
     }
