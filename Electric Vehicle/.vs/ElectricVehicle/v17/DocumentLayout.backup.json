@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250609083114_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataContext\\Migrations\\20250609083114_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|c:\\users\\plami\\documents\\uni\\github\\vehicles\\electric vehicle\\datacontext\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38663271-3F27-4012-AC5A-4E4651617CFC}|DataContext\\DataContext.csproj|solutionrelative:datacontext\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "20250609083114_initial.cs",
+              "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250609083114_initial.cs",
+              "RelativeDocumentMoniker": "DataContext\\Migrations\\20250609083114_initial.cs",
+              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250609083114_initial.cs",
+              "RelativeToolTip": "DataContext\\Migrations\\20250609083114_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T08:31:14.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "20250609081135_initialDataSeed.cs",
               "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\Migrations\\20250609081135_initialDataSeed.cs",
               "RelativeDocumentMoniker": "DataContext\\Migrations\\20250609081135_initialDataSeed.cs",
@@ -30,18 +47,17 @@
               "RelativeToolTip": "DataContext\\Migrations\\20250609081135_initialDataSeed.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T08:11:35.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-09T08:11:35.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DataSeed.cs",
               "DocumentMoniker": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\DataSeed.cs",
               "RelativeDocumentMoniker": "DataContext\\DataSeed.cs",
-              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\DataSeed.cs*",
-              "RelativeToolTip": "DataContext\\DataSeed.cs*",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAowHoAAAA2AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\plami\\Documents\\uni\\GitHub\\Vehicles\\Electric Vehicle\\DataContext\\DataSeed.cs",
+              "RelativeToolTip": "DataContext\\DataSeed.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAswHoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-07T00:37:33.299Z",
               "EditorCaption": ""
